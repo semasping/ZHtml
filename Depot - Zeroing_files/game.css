@@ -1,0 +1,40 @@
+body {
+    background: url("../images/battle_0002.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+@media (max-width: 768px) {
+    .fixed-top-sm {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+    body {
+        padding-top: 44px;
+    }
+}
+
+.tab-active {
+    background-color: #e5e5e5;
+}
+
+.navbar {
+    padding-bottom: 0px;
+}
+
+.robot {
+    height: 300px;
+    width: 200px;
+}
+
+.robot .card-title {
+    position: absolute;
+    bottom: 55px;
+    text-align: center;
+    left: 20px;
+    right: 20px;
+}
