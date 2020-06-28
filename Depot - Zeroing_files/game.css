@@ -1,5 +1,5 @@
 body {
-    background: url("../images/battle_0002.png") no-repeat center center fixed;
+    background: url("../img/screen-7.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -37,4 +37,11 @@ body {
     text-align: center;
     left: 20px;
     right: 20px;
+}
+.custom-select {
+    margin-top: 15px;
+    width: 200px;
+}
+.my_card_robot {
+    display: flex;
 }
