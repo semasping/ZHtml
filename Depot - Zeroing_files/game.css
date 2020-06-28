@@ -37,6 +37,7 @@ body {
     text-align: center;
     left: 20px;
     right: 20px;
+    
 }
 .custom-select {
     margin-top: 15px;
@@ -45,3 +46,5 @@ body {
 .my_card_robot {
     display: flex;
 }
+
+
