@@ -10514,6 +10514,7 @@ h3 {
 .slot-up {
   display: flex;
   margin-bottom: -50px;
+  margin-bottom: 50px;
 }
 .slot-down {
   display: flex;
@@ -10528,5 +10529,20 @@ h3 {
   
   padding-top: 44px;
 }
-
+.slot-middle {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: -210px;
+  margin-right: -55px;
+  margin-left: -55px;
+}
+.slot-mid {
+  margin-right: 20px;
+  width: 80px;
+  height: 120px;
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+  
+  padding-top: 44px;
+}
 
