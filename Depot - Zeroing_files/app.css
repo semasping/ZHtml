@@ -10427,3 +10427,106 @@ h3 {
 .the-intro {
   min-height: 100vh;
 }
+
+.cont-price {
+  
+ 
+  width: 600px;
+  height: 400px;
+  background-color: #1a1a1ad2;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+ overflow: scroll;
+ overflow-x: hidden;
+}
+
+.price {
+  margin-bottom: 25px;
+  border-radius: 5px;
+  width: 80px;
+  height: 100px;
+  background-color: #fff;
+ padding-top: 35px;
+  text-align: center;
+  margin-right: 30px;
+  overflow: auto;
+}
+.active-but {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.osnova-sec {
+  display: flex;
+  
+}
+.price-navbar {
+  width: 600px;
+  height: 90px;
+  background-color: #414141c2;
+  color: rgb(255, 255, 255);
+}
+.price-zagalov {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 5px !important;
+}
+.price-navbar-category {
+  margin-left: 15px;
+}
+.arrow-chip {
+  width: 50px;
+  height: 50px;
+}
+.chip-background {
+  width: 200px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 40px;
+
+}
+.chip-background {
+  text-align: center;
+  padding-top: 140px;
+ 
+}
+.arrow-chip {
+  margin: 15px;
+}
+.mega-price {
+  margin-left: 180px;
+  margin-top: -20px;
+}
+
+.arrow-chip {
+  display: inline;
+}
+.slot {
+  margin-right: 20px;
+  width: 80px;
+  height: 120px;
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+  
+  padding-top: 44px;
+}
+.slot-up {
+  display: flex;
+  margin-bottom: -50px;
+}
+.slot-down {
+  display: flex;
+  margin-top: -50px;
+}
+.slot-2 {
+  margin-right: 20px;
+  width: 80px;
+  height: 120px;
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+  
+  padding-top: 44px;
+}
+
+
