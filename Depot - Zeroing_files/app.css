@@ -10438,17 +10438,22 @@ h3 {
   height: 60px;
   background-color: rgb(255, 255, 255);
   margin-bottom: 15px;
-  padding-top: 14px;
-  padding-left: 20px;
-  padding-right: 20px;
+  
   font-weight: 500;
   display: flex;
   white-space: nowrap;
-  
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+
   
 }
+.tovar-dron {
+  margin-top: 1rem;
+  margin-right: auto;
+}
 .podhat {
-  margin-left: 700px;
+  margin-left: auto;
 }
 .cont-price {
   margin-top: 20px;

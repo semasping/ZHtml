@@ -100,30 +100,20 @@
 <div class="container-fluid">
     <div class="wrap-price">
         <section class="cont-price overflow-y">
+
             <div class="price">
-                <p>Дрон поддержки XP-42 -нач 52cr-последняя 154cr<button type="button" class="btn btn-outline-primary podhat">Поднять</button></p>
+                <p class="tovar-dron">Дрон поддержки XP-421 -нач 52cr-последняя 154cr</p><button type="button" class="btn btn-outline-primary podhat">Поднять</button>
             </div>
             <div class="price">
-                <p>Дрон поддержки XP-42 -нач 52cr-последняя 154cr<button type="button" class="btn btn-outline-primary podhat">Поднять</button></p>
+                <p class="tovar-dron">Дрон поддержки XP-422 -нач 52cr-последняя 154cr</p><button type="button" class="btn btn-outline-primary podhat">Поднять</button>
             </div>
             <div class="price">
-                <p>Дрон поддержки XP-42 -нач 52cr-последняя 154cr<button type="button" class="btn btn-outline-primary podhat">Поднять</button></p>
+                <p class="tovar-dron">Дрон поддержки XP-423 -нач 52cr-последняя 154cr</p><button type="button" class="btn btn-outline-primary podhat">Поднять</button>
             </div>
             <div class="price">
-                <p>Дрон поддержки XP-42 -нач 52cr-последняя 154cr<button type="button" class="btn btn-outline-primary podhat">Поднять</button></p>
+                <p class="tovar-dron">Дрон поддержки XP-424 -нач 52cr-последняя 154cr</p><button type="button" class="btn btn-outline-primary podhat">Поднять</button>
             </div>
-            <div class="price">
-                <p>Дрон поддержки XP-42 -нач 52cr-последняя 154cr<button type="button" class="btn btn-outline-primary podhat">Поднять</button></p>
-            </div>
-            <div class="price">
-                <p>Дрон поддержки XP-42 -нач 52cr-последняя 154cr<button type="button" class="btn btn-outline-primary podhat">Поднять</button></p>
-            </div>
-            <div class="price">
-                <p>Дрон поддержки XP-42 -нач 52cr-последняя 154cr<button type="button" class="btn btn-outline-primary podhat">Поднять</button></p>
-            </div>
-            <div class="price">
-                <p>Дрон поддержки XP-42 -нач 52cr-последняя 154cr<button type="button" class="btn btn-outline-primary podhat">Поднять</button></p>
-            </div>
+           
            
             
     
@@ -152,7 +142,33 @@
     <script type="text/javascript" src="./Depot - Zeroing_files/vendor.js.Без названия"></script>
     <script type="text/javascript" src="./Depot - Zeroing_files/app.js.Без названия"></script>
     
+    <script>
+        $( document ).ready(function(){
+          
+    
+          $( ".create-lot" ).on("click", function(){ 
+           
+            $('.cont-price').append(
+                ' <div class="price">' +
+      ' <p class="tovar-dron">Дрон поддержки XP-420 -нач 52cr-последняя 154cr</p>' +
+      '<button type="button" class="btn btn-outline-primary podhat">Поднять</button>' +
+    '</div>')
+          });
+    
+    
+          $( 'body' ).on("click", ".podhat", function(e){ 
+            console.log(e.target);
+            var parentDiv = $(this).closest('div.price');
+            parentDiv.insertBefore( parentDiv.prev() );
+    
+          });
 
+        });
+
+    </script>
 </body>
 
+<!--
+    var parentDiv = $(this).closest('div.price');  
+-->
 </html>
